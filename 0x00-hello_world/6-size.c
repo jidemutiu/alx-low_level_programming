@@ -15,10 +15,10 @@ int main(void)
 
 	float f;
 
-	printf("size of a char is %li byte(s)\n", sizeof(a));
-	printf("size of an int is %li byte(s)\n", sizeof(b));
-	printf("size of a long int is %li byte(s)\n", sizeof(c));
-	printf("size of a long long int is %li byte(s)\n", sizeof(d));
-	printf("size of a float is %li byte(s)\n", sizeof(f));
+	printf("Size of a char: %zu byte(s)\n", sizeof(a));
+	printf("Size of an int: %zu byte(s)\n", sizeof(b));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(d));
+	printf("Size of a float: %zu byte(s)\n", sizeof(f));
 	return (0);
 }
