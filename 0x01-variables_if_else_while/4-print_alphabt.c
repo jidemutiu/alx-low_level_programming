@@ -8,6 +8,7 @@
 int main(void)
 {
 	char lo, e, q;
+
 	e = 'e';
 	q = 'q';
 
