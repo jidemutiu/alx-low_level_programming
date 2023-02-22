@@ -2,7 +2,7 @@
 
 /**
  * main- program that prints alphabets and make the alphabets
- * Return void
+ * Return: void
  */
 
 void print_alphabet(void)

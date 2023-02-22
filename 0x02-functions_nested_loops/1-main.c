@@ -4,6 +4,7 @@
  * main - check the code
  * Return: 0 Always
  */
+
 int main(void)
 {
 	print_alphabet();
