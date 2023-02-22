@@ -1,15 +1,20 @@
-#include <unistdio.h>
+#include "main.h"
 
 /**
- * _putchar - write a charcter c to te stdio.
- * @c: The character to print
- * Return: 1 (success)
- * on err returned -1, set err numb to the screen
+ * main - Entry point
+ * Return: 0 (Always)
  */
 
-int _putchar(char c)
+int main(void)
 {
-	return(write(1, &c, 1));
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
 }
-
-
