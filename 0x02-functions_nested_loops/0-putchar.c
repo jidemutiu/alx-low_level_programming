@@ -1,11 +1,15 @@
-#include <stdio.h>
+#include <unistdio.h>
 
 /**
- * main - print _putchar
- * Return: 0 (success)
+ * _putchar - write a charcter c to te stdio.
+ * @c: The character to print
+ * Return: 1 (success)
+ * on err returned -1, set err numb to the screen
  */
 
-int main(void)
+int _putchar(char c)
 {
-printf("_putchar\n")
+	return(write(1, &c, 1));
 }
+
+
